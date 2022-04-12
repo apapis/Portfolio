@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Papis Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+</head>
+
+<body>
+    <img class="navigation__button" src="dist/img/menu.svg" alt="navigation button">
+    <nav class="navigation navigation--mobile">
+        <a data-target="aboutMe" href="#aboutMe" class="navigation__link navigation__link--mobile ">about me</a>
+        <a data-target="skills" href="#skills" class="navigation__link navigation__link--mobile ">skills</a>
+        <a data-target="portfolio" href="#portfolio" class="navigation__link navigation__link--mobile ">portfolio</a>
+        <a data-target="contact" href="#contact" class="navigation__link navigation__link--mobile ">contact</a>
+    </nav>
+    <nav class="navigation navigation--desktop">
+        <a data-target="aboutMe" href="#aboutMe" class="navigation__link">about me</a>
+        <a data-target="skills" href="#skills" class="navigation__link">skills</a>
+        <a data-target="portfolio" href="#portfolio" class="navigation__link">portfolio</a>
+        <a data-target="contact" href="#contact" class="navigation__link">contact</a>
+        <span class="navigation__scrollspy"></span>
+    </nav>
+    <section class="introduction section" id="introduction">
+        <div class="introduction__name">
+            <span class="introduction__name__block"></span>
+            <h1 class="introduction__name__title">Adam Papis <img class="introduction__name__title__dot"
+                    src="dist/img/layout.svg" alt="title dot"></h1>
+        </div>
+        <div class="introduction__subject">
+            <span class="introduction__subject__block"></span>
+            <h2 class="introduction__subject__title">Portfolio</h2>
+        </div>
+        <div class="introduction__buttons">
+            <a href="CV-Adam Papis.pdf" download="CV-Adam Papis.pdf"><button
+                    class="introduction__buttons__button introduction__buttons__button--slide">
+                    <span
+                        class="introduction__buttons__button__span1 introduction__buttons__button--slide__span1">CV</span>
+                    <span class="introduction__buttons__button__span2 introduction__buttons__button--slide__span2"><img
+                            src="dist/img/download.svg" alt="Download CV"></span>
+                </button>
+            </a>
+            <a href="#portfolio"><button class="introduction__buttons__button">
+                    <img class="introduction__buttons__button__arrow" src="dist/img/arrow-down.svg" alt="Arrow-down">
+                </button>
+            </a>
+        </div>
+    </section>
+    <section id="aboutMe" class="aboutMe section">
+        <h2 class="section__title"> about me</h2>
+        <div class="aboutMe__box">
+            <p class="aboutMe__box__text"> I am a student with good knowledge and understanding of creating websites.
+                My experience has led me to carry out some paid freelance work. I am very determined to develop further.
+                I learn new things very quickly. The experience of attending school and working part-time since the age
+                of 18 has led me to manage my time very well. My passion aside from IT is traveling, which is one of the
+                reasons why I decided to study abroad. The experience I have gained from traveling to new countries has
+                led me to adapt to new conditions and situations very quickly.
+            </p>
+            <p class="aboutMe__box__text">Last year I was able to visit</p>
+            <div class="aboutMe__box__text--country">x</div>
+            <p class="aboutMe__box__text">My other hobbies</p>
+            <div class="aboutMe__box__text--hobby"></div>
+        </div>
+    </section>
+    <section id="skills" class="skills section">
+        <h2 class="section__title"> Skills</h2>
+        <hr class="skills__underline skills__underline--now">
+        <div class="skills__box">
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/html.png" alt="HTML icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/css.png" alt="CSS icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/js.png" alt="HTML icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/sass.png" alt="Javascript icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/bootstrap.png
+                " alt="Bootstrap icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/GitHub.png" alt="GitHub icon">
+            </div>
+        </div>
+        <hr class="skills__underline skills__underline--bottom">
+        <h3 class="section__title skills__title">Plans for 2022</h3>
+        <hr class="skills__underline">
+        <div class="skills__box skills__box--future">
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/react.png" alt="React icon">
+            </div>
+            <div href="" class="skills__box__skill">
+                <img src="dist/img/Csharp_Logo.png" alt="C# icon">
+            </div>
+        </div>
+        <hr class="skills__underline skills__underline--future skills__underline--bottom">
+    </section>
+    <section id="portfolio" class="portfolio section">
+        <h2 class="section__title">Portfolio</h2>
+        <div class="portfolio__box">
+            <div class="portfolio__box__example">
+                <img class="portfolio__box__example__img" src="dist/img/page1.png" alt="Picture of the website">
+                <div class="portfolio__box__example__icons">
+                    <a target="_blank" href="../Tropical-Paradise"><button
+                            class="portfolio__box__example__icons__see"><img src="dist/img/eye.svg"
+                                alt="Eye icon"></button></a>
+                    <a target="_blank" href="https://github.com/apapis/Tropical-Paradise"><button
+                            class="portfolio__box__example__icons__git"><img src="dist/img/github.svg"
+                                alt="GitHub icon"></button></a>
+                </div>
+            </div>
+            <div class="portfolio__box__example">
+                <img class="portfolio__box__example__img" src="dist/img/page2.png" alt="Picture of the website">
+                <div class="portfolio__box__example__icons">
+                    <a target="_blank" href="../bootstrap"><button class="portfolio__box__example__icons__see"><img
+                                src="dist/img/eye.svg" alt="Eye icon"></button></a>
+                    <a target="_blank" href="https://github.com/apapis/Bootstrap-website"><button
+                            class="portfolio__box__example__icons__git"><img src="dist/img/github.svg"
+                                alt="GitHub icon"></button></a>
+                </div>
+            </div>
+            <div class="portfolio__box__example">
+                <img class="portfolio__box__example__img" src="dist/img/page3.png" alt="Picture of the website">
+                <div class="portfolio__box__example__icons">
+                    <a target="_blank" href=""><button class="portfolio__box__example__icons__see"><img
+                                src="dist/img/eye.svg" alt="Eye icon"></button></a>
+                    <a target="_blank" href=""><button class="portfolio__box__example__icons__git"><img
+                                src="dist/img/github.svg" alt="GitHub icon"></button></a>
+                </div>
+            </div>
+            <div class="portfolio__box__example">
+                <img class="portfolio__box__example__img" src="dist/img/page4.png" alt="Picture of the website">
+                <div class="portfolio__box__example__icons">
+                    <a target="_blank" href="../Weather-App"><button class="portfolio__box__example__icons__see"><img
+                                src="dist/img/eye.svg" alt="Eye icon"></button></a>
+                    <a target="_blank" href="https://github.com/apapis/Weather-App"><button
+                            class="portfolio__box__example__icons__git"><img src="dist/img/github.svg"
+                                alt="GitHub icon"></button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact section">
+        <h2 class="section__title">contact</h2>
+        <button class="contact__button"><a target="_blank" href="https://www.linkedin.com/in/adam-papis-999239236/"><img
+                    src="dist/img/linkedin.svg" alt="linkedin icon"></a>
+        </button>
+
+        <form class="contact__form" action="https://formsubmit.co/6202ba928bfcdcc058f6a9546fc9f6da" method="POST">
+            <h3 class="contact__form__title" required>email</h3>
+            <input class="contact__form__input" type="email" name="email" required>
+            <h3 class="contact__form__title">name</h3>
+            <input class="contact__form__input" type="text" name="name">
+            <h3 class="contact__form__title">message</h3>
+            <textarea class="contact__form__input contact__form__input--textarea" name="text" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <button class="contact__form__button" type="submit">Submit</button>
+            <input type="hidden" name="_next" value="https://projectwwwsite.com/Adam_Papis-Portfolio/">
+        </form>
+    </section>
+    <footer class="footer">
+        <hr class="footer__hr">
+        <p class="footer__text">Adam Papis Portfolio</p>
+    </footer>
+    <script src="dist/js/nav.min.js"></script>
+    <script src="dist/js/scrollspy.min.js"></script>
+    <script src="dist/js/typeWords.js"></script>
+</body>
+
+</html>
